@@ -15,7 +15,7 @@ A comprehensive, multi-format fake data generation toolkit for testing, developm
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/dummy-data-generator.git
+git clone https://github.com/itsrcx/dummy-data-generator.git
 cd dummy-data-generator
 
 # Install dependencies
