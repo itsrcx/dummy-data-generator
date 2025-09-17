@@ -1,4 +1,4 @@
-# 🎲 Fake Data Generator
+# 🎲 Dummy Data Generator
 
 A comprehensive, multi-format fake data generation toolkit for testing, development, and database seeding. Generate realistic test datasets in multiple formats with support for all major database systems.
 
@@ -15,8 +15,8 @@ A comprehensive, multi-format fake data generation toolkit for testing, developm
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fake-data.git
-cd fake-data
+git clone https://github.com/yourusername/dummy-data-generator.git
+cd dummy-data-generator
 
 # Install dependencies
 pip install -r requirements.txt
@@ -81,7 +81,7 @@ COLUMN_NULL_PROBS = {
 ## 📁 Project Structure
 
 ```
-fake-data/
+dummy-data-generator/
 ├── data_gen.py              # Universal multi-format generator
 ├── postgres_data_gen.py     # PostgreSQL-specific generator
 ├── mysql_data_gen.py        # MySQL-specific generator
@@ -208,7 +208,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Multiple output formats** (CSV, JSON, XML, SQL, Parquet)
 - **4 major databases** supported (PostgreSQL, MySQL, MSSQL, Oracle)
 - **Memory efficient** streaming architecture
-- **Production ready** with proper error handling
+- **For testing purpose** only for inserting dummy data
 
 ---
 

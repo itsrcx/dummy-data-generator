@@ -50,6 +50,6 @@ def insert_data_in_batches(file_path):
                     print(f"An unexpected error occurred: {e}")
                     
 if __name__ == "__main__":
-    jsonl_file_path = '/Users/raman/Documents/fake-data/output_data_20000/data_20000.jsonl'
+    jsonl_file_path = '/Users/raman/Documents/dummy-data-generator/output_data_20000/data_20000.jsonl'
     insert_data_in_batches(jsonl_file_path)
 
